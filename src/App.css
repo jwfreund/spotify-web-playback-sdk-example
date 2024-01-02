@@ -4,6 +4,13 @@
   padding: 0;
 }
 
+h1 {
+  border-bottom: 2px solid white;
+  width:100%;
+  text-align:center;
+  margin-bottom: 10px;
+}
+
 html, body {
   height: 100%;
 }
@@ -47,7 +54,7 @@ body {
 }
 
 .main-wrapper {
-  padding-top: 45px;
+  padding-top: 10px;
   align-items: center;
   display: flex;
   height: 100%;
@@ -69,31 +76,19 @@ body {
   flex: 1;
 }
 
-.now-playing__name {
-  font-size: 1.5em;
-  margin-bottom: 0.2em;
-}
-
-.now-playing__artist {
-  margin-bottom: 1em;
-}
-
-.now-playing__status {
-  margin-bottom: 1em;
-}
 
 .now-playing__cover {
   border-radius: 8px;
   float: left;
   margin-right: 10px;
   text-align: right;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
 }
 
 .now-playing__side {
   margin-left: 2%;
-  width: 45%;
+  width: 80%;
 }
 
 .btn-spotify {
